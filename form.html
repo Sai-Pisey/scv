@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <a href="index.html">Homepage</a>
+    <a href="contact.html">Back</a>
+    <h1>Contact Me ?</h1>
+
+    <form action="mailto:piseysai@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name: </label>
+      <input type="text" name="name" value=""> <br> <br>
+      <label for="password">Password: </label>
+      <input type="password" name="password" value=""><br> <br>
+      <label for="email">Email: </label>
+      <input type="email" name="email" value=""><br><br>
+      <label for="age">Age: </label>
+      <input type="number" name="age" value="" min="18" max="100">
+
+      <p>Gender: </p>
+      <input type="radio" name="gender" value="Male">
+      <label for="male">Male: </label><br>
+      <input type="radio" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" name="gender" value="other">
+      <label for="other">Other: </label><br>
+
+      <p><label for="dob">Date of Birth:</label></p>
+      <input type="date" name="dob" value="">
+
+      <p> <label for="qualify">Qualifications: </label></p>
+      <input type="checkbox" name="10th" value="10">
+      <label for="10">10th</label><br>
+      <input type="checkbox" name="12th" value="12">
+      <label for="12">12th</label><br>
+
+      <p><label for="resume">Resume: </label></p>
+      <input type="file" name="resume" value=""><br><br>
+
+      <label for="yourmessage">Your Message</label><br>
+      <textarea name="YourMessage" rows="5" cols="50"></textarea> <br><br>
+
+      <input type="reset" name="" value="Reset">
+      <input type="image" name="" alt="Submit" src="submit.jpg" width="60" height="60">
+    </form>
+
+  </body>
+</html>
